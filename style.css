@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ELEMENTS */
+
+body{
+    background-color: gainsboro;
+    padding: 0;
+}
+
+h1{
+    font-size: 80px;
+}
+
+p{
+    font-size: 9px;
+    padding: 0px 10px 0px 10px;
+}
+
+hr{
+    width: 200px;
+    margin: auto;
+    border: none;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+/* FLEX CONTAINER */
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* DIV FOR COLUMNS */
+
+.column{
+    margin: 30px;
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px #44444d81);
+}
+
+/* TOP SECTION/PLAN NAME SECTION */
+
+.top-section{
+    width: 250px;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+    color: white;
+}
+
+.basic-color{
+    background-image: linear-gradient(to bottom right, #f9d625, #c4387d);
+
+}
+
+.standard-color{
+    background-image: linear-gradient(to bottom right, #4db8d3, #2f4383);
+
+}
+
+.premium-color{
+    background-image: linear-gradient(to bottom right, #afd199, #2585bc);
+
+}
+
+.plan-name{
+    font-size: 25px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+
+/* BOTTOM SECTION/PRICE SECTION */
+
+.bottom-section{
+    width: 250px;
+    height: 520px;
+    border-radius: 0 0 20px 20px;
+    background-color: white;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.price-point{
+    margin-bottom: 15px;
+    padding-top: 30px;
+}
+
+.dollar-sign{
+    font-size: 50px;
+    font-weight: lighter;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.month-line{
+    font-size: 20px;
+    font-weight: lighter;
+    position: relative;
+    top: 8px;
+    right: 5px;
+}
+
+/* HORIZONTAL LINE UNDER PRICE*/
+
+span hr{
+    background-color: lightgray;
+    border: none;
+    height: 4px;
+    width: 90px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+
+}   
+
+/* UNORDERED LISTS */
+
+li{
+    color: red;
+    font-size: 11px;
+    list-style-type: none;
+}
+
+li span{
+    color: lightgray;
+
+}
+
+/* BULLET POINTS */
+
+.bullet-list{
+    padding: 0px 15px 0px 15px;
+    line-height: 6;
+}
+
+/* BULLET TEXT */
+
+.text-list{
+    line-height: 2;
+    text-align: left;
+    padding: 0;
+}
+
+.lists-container{
+    display: flex;
+}
+
+.list-two{
+    margin-right: 15px;
+}
+
+/* BUY NOW BUTTON */
+
+.buy-button{
+    border: none;
+    border-radius: 15px;
+    padding: 12px;
+    margin-top: 15px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.basic-button:hover{
+    background-image: linear-gradient(to bottom right, #c4387d, #f9d625);
+
+}
+
+.standard-button:hover{
+    background-image: linear-gradient(to bottom right, #2f4383, #4db8d3);
+
+}
+
+.premium-button:hover{
+    background-image: linear-gradient(to bottom right, #2585bc, #afd199);
+
+}
+
